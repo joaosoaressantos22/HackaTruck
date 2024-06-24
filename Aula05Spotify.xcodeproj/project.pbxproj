@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0121CC2C2C1B8134006C5255 /* Eiffel 65 - Blue (Da Ba Dee) [Gabry Ponte Ice Pop Mix] (Original Video with subtitles).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0121CC2B2C1B8134006C5255 /* Eiffel 65 - Blue (Da Ba Dee) [Gabry Ponte Ice Pop Mix] (Original Video with subtitles).mp3 */; };
+		01F8C6852C1A0F1B00C4B736 /* Aula05SpotifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F8C6842C1A0F1B00C4B736 /* Aula05SpotifyApp.swift */; };
+		01F8C6872C1A0F1B00C4B736 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F8C6862C1A0F1B00C4B736 /* ContentView.swift */; };
+		01F8C6892C1A0F1C00C4B736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F8C6882C1A0F1C00C4B736 /* Assets.xcassets */; };
+		01F8C68C2C1A0F1C00C4B736 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F8C68B2C1A0F1C00C4B736 /* Preview Assets.xcassets */; };
+		01F8C6932C1A222000C4B736 /* Musica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F8C6922C1A222000C4B736 /* Musica.swift */; };
+		01F9E89F2C20A30F00A0900E /* Titãs - Marvin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01F9E89E2C20A30F00A0900E /* Titãs - Marvin.mp3 */; };
+		01F9E8A12C20A4EC00A0900E /* Comida.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01F9E8A02C20A4EC00A0900E /* Comida.mp3 */; };
+		01F9E8A32C20A4F200A0900E /* Os Cegos do Castelo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01F9E8A22C20A4F100A0900E /* Os Cegos do Castelo.mp3 */; };
+		01F9E8A52C20A4F900A0900E /* Pra Dizer Adeus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01F9E8A42C20A4F800A0900E /* Pra Dizer Adeus.mp3 */; };
+		01F9E8A72C20A4FD00A0900E /* Monster.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01F9E8A62C20A4FD00A0900E /* Monster.mp3 */; };
+		01F9E8A92C20A50200A0900E /* Axel F.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01F9E8A82C20A50200A0900E /* Axel F.mp3 */; };
+		01F9E8AB2C20A58000A0900E /* Exagerado.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01F9E8AA2C20A58000A0900E /* Exagerado.mp3 */; };
+		01F9E8AD2C20A63B00A0900E /* Flores.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01F9E8AC2C20A63B00A0900E /* Flores.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0121CC2B2C1B8134006C5255 /* Eiffel 65 - Blue (Da Ba Dee) [Gabry Ponte Ice Pop Mix] (Original Video with subtitles).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Eiffel 65 - Blue (Da Ba Dee) [Gabry Ponte Ice Pop Mix] (Original Video with subtitles).mp3"; sourceTree = "<group>"; };
+		01F8C6812C1A0F1B00C4B736 /* Aula05Spotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aula05Spotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F8C6842C1A0F1B00C4B736 /* Aula05SpotifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aula05SpotifyApp.swift; sourceTree = "<group>"; };
+		01F8C6862C1A0F1B00C4B736 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		01F8C6882C1A0F1C00C4B736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01F8C68B2C1A0F1C00C4B736 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01F8C6922C1A222000C4B736 /* Musica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Musica.swift; sourceTree = "<group>"; };
+		01F9E89E2C20A30F00A0900E /* Titãs - Marvin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Titãs - Marvin.mp3"; sourceTree = "<group>"; };
+		01F9E8A02C20A4EC00A0900E /* Comida.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Comida.mp3; sourceTree = "<group>"; };
+		01F9E8A22C20A4F100A0900E /* Os Cegos do Castelo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Os Cegos do Castelo.mp3"; sourceTree = "<group>"; };
+		01F9E8A42C20A4F800A0900E /* Pra Dizer Adeus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Pra Dizer Adeus.mp3"; sourceTree = "<group>"; };
+		01F9E8A62C20A4FD00A0900E /* Monster.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Monster.mp3; sourceTree = "<group>"; };
+		01F9E8A82C20A50200A0900E /* Axel F.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Axel F.mp3"; sourceTree = "<group>"; };
+		01F9E8AA2C20A58000A0900E /* Exagerado.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Exagerado.mp3; sourceTree = "<group>"; };
+		01F9E8AC2C20A63B00A0900E /* Flores.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Flores.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01F8C67E2C1A0F1B00C4B736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01F8C6782C1A0F1B00C4B736 = {
+			isa = PBXGroup;
+			children = (
+				01F8C6832C1A0F1B00C4B736 /* Aula05Spotify */,
+				01F8C6822C1A0F1B00C4B736 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01F8C6822C1A0F1B00C4B736 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01F8C6812C1A0F1B00C4B736 /* Aula05Spotify.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01F8C6832C1A0F1B00C4B736 /* Aula05Spotify */ = {
+			isa = PBXGroup;
+			children = (
+				01F8C6842C1A0F1B00C4B736 /* Aula05SpotifyApp.swift */,
+				01F8C6862C1A0F1B00C4B736 /* ContentView.swift */,
+				01F8C6922C1A222000C4B736 /* Musica.swift */,
+				01F9E8AE2C20C5AD00A0900E /* song */,
+				01F8C6882C1A0F1C00C4B736 /* Assets.xcassets */,
+				01F8C68A2C1A0F1C00C4B736 /* Preview Content */,
+			);
+			path = Aula05Spotify;
+			sourceTree = "<group>";
+		};
+		01F8C68A2C1A0F1C00C4B736 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				01F8C68B2C1A0F1C00C4B736 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		01F9E8AE2C20C5AD00A0900E /* song */ = {
+			isa = PBXGroup;
+			children = (
+				01F9E8AA2C20A58000A0900E /* Exagerado.mp3 */,
+				01F9E8A42C20A4F800A0900E /* Pra Dizer Adeus.mp3 */,
+				01F9E8A22C20A4F100A0900E /* Os Cegos do Castelo.mp3 */,
+				01F9E8A62C20A4FD00A0900E /* Monster.mp3 */,
+				01F9E8A02C20A4EC00A0900E /* Comida.mp3 */,
+				01F9E8AC2C20A63B00A0900E /* Flores.mp3 */,
+				0121CC2B2C1B8134006C5255 /* Eiffel 65 - Blue (Da Ba Dee) [Gabry Ponte Ice Pop Mix] (Original Video with subtitles).mp3 */,
+				01F9E8A82C20A50200A0900E /* Axel F.mp3 */,
+				01F9E89E2C20A30F00A0900E /* Titãs - Marvin.mp3 */,
+			);
+			path = song;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01F8C6802C1A0F1B00C4B736 /* Aula05Spotify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F8C68F2C1A0F1C00C4B736 /* Build configuration list for PBXNativeTarget "Aula05Spotify" */;
+			buildPhases = (
+				01F8C67D2C1A0F1B00C4B736 /* Sources */,
+				01F8C67E2C1A0F1B00C4B736 /* Frameworks */,
+				01F8C67F2C1A0F1B00C4B736 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aula05Spotify;
+			productName = Aula05Spotify;
+			productReference = 01F8C6812C1A0F1B00C4B736 /* Aula05Spotify.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01F8C6792C1A0F1B00C4B736 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					01F8C6802C1A0F1B00C4B736 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 01F8C67C2C1A0F1B00C4B736 /* Build configuration list for PBXProject "Aula05Spotify" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01F8C6782C1A0F1B00C4B736;
+			productRefGroup = 01F8C6822C1A0F1B00C4B736 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01F8C6802C1A0F1B00C4B736 /* Aula05Spotify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01F8C67F2C1A0F1B00C4B736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F8C68C2C1A0F1C00C4B736 /* Preview Assets.xcassets in Resources */,
+				01F9E8A92C20A50200A0900E /* Axel F.mp3 in Resources */,
+				01F9E8A72C20A4FD00A0900E /* Monster.mp3 in Resources */,
+				01F8C6892C1A0F1C00C4B736 /* Assets.xcassets in Resources */,
+				01F9E8A52C20A4F900A0900E /* Pra Dizer Adeus.mp3 in Resources */,
+				01F9E8A32C20A4F200A0900E /* Os Cegos do Castelo.mp3 in Resources */,
+				0121CC2C2C1B8134006C5255 /* Eiffel 65 - Blue (Da Ba Dee) [Gabry Ponte Ice Pop Mix] (Original Video with subtitles).mp3 in Resources */,
+				01F9E8A12C20A4EC00A0900E /* Comida.mp3 in Resources */,
+				01F9E89F2C20A30F00A0900E /* Titãs - Marvin.mp3 in Resources */,
+				01F9E8AD2C20A63B00A0900E /* Flores.mp3 in Resources */,
+				01F9E8AB2C20A58000A0900E /* Exagerado.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01F8C67D2C1A0F1B00C4B736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F8C6872C1A0F1B00C4B736 /* ContentView.swift in Sources */,
+				01F8C6852C1A0F1B00C4B736 /* Aula05SpotifyApp.swift in Sources */,
+				01F8C6932C1A222000C4B736 /* Musica.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		01F8C68D2C1A0F1C00C4B736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01F8C68E2C1A0F1C00C4B736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01F8C6902C1A0F1C00C4B736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aula05Spotify/Preview Content\"";
+				DEVELOPMENT_TEAM = 256UBADRQY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JoaoVitor.Aula05Spotify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01F8C6912C1A0F1C00C4B736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aula05Spotify/Preview Content\"";
+				DEVELOPMENT_TEAM = 256UBADRQY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JoaoVitor.Aula05Spotify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01F8C67C2C1A0F1B00C4B736 /* Build configuration list for PBXProject "Aula05Spotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F8C68D2C1A0F1C00C4B736 /* Debug */,
+				01F8C68E2C1A0F1C00C4B736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01F8C68F2C1A0F1C00C4B736 /* Build configuration list for PBXNativeTarget "Aula05Spotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F8C6902C1A0F1C00C4B736 /* Debug */,
+				01F8C6912C1A0F1C00C4B736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01F8C6792C1A0F1B00C4B736 /* Project object */;
+}
