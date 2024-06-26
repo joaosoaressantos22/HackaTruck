@@ -1,0 +1,124 @@
+//
+//  ContentView.swift
+//  Aula05Spotify
+//
+//  Created by Turma01-14 on 12/06/24.
+//
+
+import SwiftUI
+
+struct Song: Identifiable{
+    var id: Int
+    var name: String
+    var artist: String
+    var capa: String
+    var caminho: String
+    var segundos: Double
+}
+
+var arrayMusicas = [
+    Song(id: 1, name: "Marvin",artist:"Titãs", capa: "https://www.alphanoticias.com.br/wp-content/uploads/2020/03/maxresdefault.jpg", caminho: "Titãs - Marvin", segundos: 264),
+    Song(id: 2, name: "Flores",artist:"Titãs", capa: "https://www.alphanoticias.com.br/wp-content/uploads/2020/03/maxresdefault.jpg", caminho: "Flores", segundos: 196),
+    Song(id: 3, name: "Comida",artist:"Titãs", capa: "https://www.alphanoticias.com.br/wp-content/uploads/2020/03/maxresdefault.jpg", caminho: "Comida", segundos: 213),
+    Song(id: 4, name: "Exagerado",artist:"Cazuza", capa: "https://upload.wikimedia.org/wikipedia/pt/f/fd/Exagerado.jpg", caminho: "Exagerado", segundos: 202),
+    Song(id: 5, name: "Os cegos do castelo",artist:"Titãs", capa: "https://www.alphanoticias.com.br/wp-content/uploads/2020/03/maxresdefault.jpg", caminho: "Os Cegos do Castelo", segundos: 274),
+    Song(id: 6, name: "Pra dizer adeus",artist:"Titãs", capa: "https://www.alphanoticias.com.br/wp-content/uploads/2020/03/maxresdefault.jpg", caminho: "Pra Dizer Adeus", segundos: 205),
+    Song(id: 7, name: "Monster",artist:"Skillet", capa: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcScbGqPjv4iDB4BCSyO65TNgI0rwrKonG8oPBqWB64BRNhQHkw8", caminho: "Monster", segundos: 184),
+    Song(id: 8, name: "Axel F",artist:"Crazy frog", capa: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT-xzgO1kJqbE2EsGcJPdGzBjXdRL-5nZ4cuUVdDciIDMElzIwRLEflizV6VtvVWiRAQPd3ula_g6CzhOia7vclKLOIGAyu4_Pvqt4eCNc", caminho: "Axel F", segundos: 149),
+    Song(id: 9, name: "Blue (Da ba dee)", artist: "Eiffel 65", capa: "https://i.scdn.co/image/ab67616d0000b2731c42b93f217c02977ae4c5d0", caminho: "Eiffel 65 - Blue (Da Ba Dee) [Gabry Ponte Ice Pop Mix] (Original Video with subtitles)", segundos: 203)
+]
+var arraySugeridos = [
+    Song(id: 1, name: "Marvin",artist:"Titãs", capa: "https://www.alphanoticias.com.br/wp-content/uploads/2020/03/maxresdefault.jpg", caminho: "Eiffel 65 - Blue (Da Ba Dee) [Gabry Ponte Ice Pop Mix] (Original Video with subtitles)", segundos: 264),
+    Song(id: 7, name: "Monster",artist:"Skillet", capa: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcScbGqPjv4iDB4BCSyO65TNgI0rwrKonG8oPBqWB64BRNhQHkw8", caminho: "Eiffel 65 - Blue (Da Ba Dee) [Gabry Ponte Ice Pop Mix] (Original Video with subtitles)", segundos: 184),
+    Song(id: 8, name: "Axel F",artist:"Crazy frog", capa: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT-xzgO1kJqbE2EsGcJPdGzBjXdRL-5nZ4cuUVdDciIDMElzIwRLEflizV6VtvVWiRAQPd3ula_g6CzhOia7vclKLOIGAyu4_Pvqt4eCNc", caminho: "Eiffel 65 - Blue (Da Ba Dee) [Gabry Ponte Ice Pop Mix] (Original Video with subtitles)", segundos: 149),
+]
+
+struct ContentView: View {
+    var body: some View {
+        NavigationStack{
+
+            ZStack{
+                LinearGradient(stops: [.init(color: .blue, location: 0.001), .init(color: .black, location: 0.6)], startPoint: .top, endPoint: .bottom)
+                ScrollView {
+                VStack {
+                    Image("Hacka")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 200, height: 200)
+                        .padding(.top, 100)
+                    HStack{
+                        Text("HackaFM")
+                            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                        Spacer()
+                    }.padding(.leading)
+                    HStack{
+                        Image("Hacka")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 20, height: 20)
+                        Text("HackaSong")
+                        Spacer()
+                    }
+                    .padding(.bottom, 10)
+                    .padding(.leading)
+                        
+                        ForEach(arrayMusicas) { musica in
+                            HStack{
+                                NavigationLink(destination: Musica(song: musica)){
+                                    AsyncImage(url: URL(string: musica.capa)){ image in
+                                        image.image?.resizable()
+                                    }
+                                    .frame(width: 80, height: 80)
+                                    VStack(alignment: .leading){
+                                        Text(musica.name)
+                                        Text(musica.artist)
+                                            .font(.caption)
+                                    }
+                                }
+                                Spacer()
+                                Image(systemName: "ellipsis")
+                            }
+                            
+                        }
+                        .padding(.leading)
+                        .padding(.bottom, 10)
+                        HStack{
+                            Text("Sugeridos").font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                            Spacer()
+                        }
+                        .padding(.top, 10)
+                        .padding(.bottom, 10)
+                        .padding(.leading)
+
+                        ScrollView(.horizontal){
+                            HStack{
+                                ForEach(arraySugeridos) { musica in
+                                    NavigationLink(destination: Musica(song: musica)){
+                                    VStack{
+                                            AsyncImage(url: URL(string: musica.capa)){ image in
+                                                image.image?.resizable()
+                                            }
+                                            .frame(width: 150, height: 150)
+                                                Text(musica.name)
+                                                Text(musica.artist)
+                                                    .font(.caption)
+                                            }
+                                        }
+                                    
+                                }
+                            }
+                        }.padding()
+                    }
+                }
+            }
+            .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
+            .ignoresSafeArea()
+            .foregroundColor(.white)
+
+        }.accentColor(.white)
+    }
+}
+
+#Preview {
+    ContentView()
+}
